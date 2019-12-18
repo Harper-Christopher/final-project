@@ -1,0 +1,1017 @@
+/* normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+
+header {
+  text-align: center;
+  background: #c0fdfb;
+  padding: 1rem 0;
+  box-shadow: 0 0 5px #5d737e; }
+
+h1 {
+  font-family: "Gabriela", serif;
+  margin: 0 0 1rem 0; }
+
+.logo {
+  max-width: 200px;
+  border-radius: 50%; }
+
+.moto {
+  font-style: italic; }
+
+nav {
+  background: #daffef;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center; }
+
+.navigation {
+  padding: 0;
+  margin: 0;
+  border: solid 1px black; }
+
+.navigation li:first-child {
+  display: block; }
+
+.navigation li {
+  display: none; }
+
+.navigation a {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: black; }
+
+.navigation a:hover {
+  background-color: #64b6ac;
+  font-weight: 600;
+  color: #fcfeff; }
+
+.responsive li {
+  display: block; }
+
+.active {
+  background: #64b6ac; }
+
+main {
+  width: 90%;
+  margin: 1rem auto; }
+
+.title {
+  font-weight: bolder;
+  text-shadow: 2px 2px 1px #c0fdfb;
+  padding: 1rem;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-size: 2.5rem; }
+
+.homeImg {
+  border-radius: 0; }
+
+.weddingImg {
+  border-radius: 1rem; }
+
+.templeImg {
+  border-radius: 50%;
+  max-width: 90%;
+  padding: 1rem; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #fcfeff;
+  font-size: 0.9rem; }
+
+.button {
+  display: flex;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+  background: red;
+  box-shadow: 5px 5px 10px black;
+  margin: 0 auto 1rem; }
+
+.buttonText {
+  text-decoration: none; }
+
+.action {
+  font-size: 3rem;
+  color: white;
+  text-align: center; }
+
+.intro {
+  background: #5d737e;
+  margin: 0 0 1rem 0;
+  padding: 1rem; }
+
+.homeArticle {
+  background: #5d737e;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border-radius: 7px; }
+
+.homeService {
+  background: #5d737e;
+  border-radius: 7px; }
+
+.homeDiv {
+  border: solid 1px white;
+  text-align: center; }
+
+.homeParagraph {
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  text-align: left; }
+
+img {
+  width: 100%;
+  margin: 0 auto; }
+
+footer {
+  display: flex;
+  background: #c0fdfb;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center; }
+
+h4 {
+  font-family: "Oswald", sans-serif; }
+
+.icon {
+  display: block;
+  max-width: 48px;
+  padding: .3rem;
+  border-radius: 0; }
+
+.divHome, .divHome2 {
+  display: flex;
+  flex-direction: column;
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0 0 1rem 0; }
+
+.templeJson {
+  display: flex;
+  flex-direction: column;
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem; }
+
+.templeJson section {
+  background: #5d737e;
+  margin: .3rem;
+  border: solid 1px black;
+  text-align: center; }
+
+.templeJson img {
+  max-width: 350px; }
+
+.templeJson h2 {
+  color: #c0fdfb;
+  text-align: center;
+  padding: 1rem;
+  margin: 0; }
+
+.templeJson h3 {
+  color: #c0fdfb;
+  padding: 1rem;
+  font-size: 1.5rem; }
+
+.templeJson p {
+  padding: .5rem;
+  margin: 0; }
+
+.templeJson hr {
+  width: 85%; }
+
+div .stats {
+  background: #5d737e;
+  text-align: center;
+  border: solid 1px black;
+  margin: .3rem; }
+
+.stats h3 {
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem; }
+
+.stats p {
+  margin: 0;
+  padding: .5rem; }
+
+#currently0, #currently1, #currently2, #currently3, #high0, #high1, #high2, #high3, #currentTemp0, #currentTemp1, #currentTemp2, #currentTemp3, #windchill0, #windchill1, #windchill2, #windchill3, #humidity0, #humidity1, #humidity2, #humidity3, #windspeed0, #windspeed1, #windspeed2, #windspeed3, .weatherName {
+  color: #c0fdfb; }
+
+.weatherStats {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem; }
+
+.flexForm {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem; }
+
+.forms {
+  background: #5d737e;
+  border: solid 1px black;
+  margin: .3rem;
+  text-align: center; }
+
+.forms h2 {
+  color: #c0fdfb;
+  margin: 0; }
+
+.forms input, .forms select, .forms textarea {
+  border-radius: 1rem;
+  padding: .5rem;
+  width: 75%;
+  font-weight: bolder;
+  max-width: 35rem;
+  margin: 0 0 1rem 0; }
+
+.contactInfo {
+  font-size: 2rem;
+  text-decoration: underline;
+  padding: 2rem; }
+
+.resH2 {
+  font-size: 1.3rem; }
+
+input.button1 {
+  display: block;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background: red;
+  box-shadow: 5px 5px 10px black;
+  margin: 1rem auto;
+  max-width: 240px; }
+
+.thanks {
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem; }
+
+.thanks1 {
+  font-weight: bolder;
+  background: #5d737e;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem; }
+
+.thanks1 h2 {
+  color: white;
+  font-size: 2rem; }
+
+.thanksPic {
+  width: 95%;
+  max-width: 500px;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 1rem; }
+
+.thanks2 {
+  width: 95%;
+  max-width: 1023px;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 1rem; }
+
+.services, .services1 {
+  display: flex;
+  flex-direction: column;
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0 0 1rem 0; }
+
+.special, .amenities, .reception, .missionary {
+  background: #5d737e;
+  border: solid 1px black;
+  margin: .3rem; }
+
+.special h2, .amenities h2 {
+  color: #c0fdfb;
+  padding: .5rem; }
+
+.special ul li, .amenities ul li {
+  color: white;
+  font-family: "Open Sans", sans-serif; }
+
+.breakfast, .specialService {
+  display: block;
+  width: 93%;
+  border-radius: 1rem;
+  margin: 1rem auto;
+  box-shadow: 5px 5px 10px black; }
+
+.breakfast {
+  max-width: 438px; }
+
+.cake {
+  display: block;
+  width: 95%;
+  max-width: 500px;
+  max-height: 414px;
+  border-radius: 1rem;
+  margin: 1rem auto;
+  box-shadow: 5px 5px 10px black; }
+
+.reception, .missionary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.callService {
+  font-size: 2.3rem;
+  color: white;
+  text-align: center;
+  padding: .3rem;
+  margin: .5rem; }
+
+.block {
+  padding: 1rem; }
+
+.mapDiv {
+  display: flex;
+  margin: 1rem auto;
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem; }
+
+.map {
+  width: 95%;
+  background: #5d737e;
+  margin: .3rem auto;
+  text-align: center;
+  padding: .2rem; }
+
+.contactAddress {
+  display: flex;
+  margin: 1rem auto;
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem; }
+
+.contactP {
+  width: 100%;
+  background: #5d737e;
+  border: solid 1px black;
+  margin: .3rem auto;
+  text-align: center; }
+
+.mapLink {
+  text-decoration: none;
+  color: #c0fdfb; }
+
+.rooms {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem; }
+
+.standard, .superior, .deluxe {
+  display: flex;
+  flex-direction: column;
+  background: #5d737e;
+  border: solid 1px black;
+  margin: 1rem;
+  text-align: center; }
+
+.standard img, .superior img, .deluxe img {
+  width: 95%;
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px black;
+  margin: 1rem auto;
+  filter: blur(0em);
+  transition: filter 0.5s; }
+
+img[data-src] {
+  filter: blur(0.2em); }
+
+.suites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem auto; }
+
+.suites h2 {
+  color: #c0fdfb; }
+
+.suites ul {
+  color: white;
+  font-family: "Open Sans", sans-serif; }
+
+.receptionLayout {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem;
+  justify-content: center; }
+
+.receptionSetup, .receptionFood {
+  display: flex;
+  flex-direction: column;
+  background: #5d737e;
+  border: solid 1px black;
+  margin: .5rem;
+  text-align: center; }
+
+.receptionSetup img, .receptionFood img {
+  width: 95%;
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px black;
+  margin: 1rem auto; }
+
+.receptionSetup h2, .receptionFood h2, .receptionSetup ul, .receptionFood ul {
+  padding: 1rem;
+  text-align: left; }
+
+.receptionSetup li, .receptionFood li {
+  padding: .2rem; }
+
+.receptionIntro {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  background: #c0fdfb;
+  padding: 1rem;
+  border-radius: 1rem; }
+
+.receptionIntro2 {
+  display: flex;
+  flex-direction: column;
+  background: #5d737e;
+  border: solid 1px black;
+  margin: .5rem;
+  text-align: center; }
+
+.receptionIntro2 h2 {
+  color: #c0fdfb;
+  font-size: 1.5rem; }
+
+.receptionIntro2 p {
+  padding: 1rem;
+  text-align: left; }
+
+@media only screen and (min-width: 32.5em) {
+  .head {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center; }
+
+  .logo {
+    margin: 0 auto 0 0;
+    padding: 0.5rem 2rem; }
+
+  .companyName {
+    margin: 0 0 0 auto;
+    padding: .5rem 2rem; }
+
+  nav {
+    font-size: 1.1rem; }
+
+  .templeImg {
+    border-radius: 2rem;
+    max-width: 75%;
+    margin: auto 1rem; }
+
+  .homeArticle {
+    text-align: center; }
+
+  .weddingImg {
+    max-width: 414px; }
+
+  .title {
+    font-size: 3rem; }
+
+  p {
+    font-size: 1rem; }
+
+  .templeJson img {
+    box-shadow: 2px 2px 5px black;
+    border-radius: .5rem; }
+
+  .templeJson h3 {
+    font-size: 1.7rem; }
+
+  .templeJson h2 {
+    font-size: 2rem; }
+
+  .contactInfo {
+    font-size: 2.7rem; }
+
+  .resH2 {
+    font-size: 1.6rem; }
+
+  .thanks h2 {
+    font-size: 2.5rem; }
+
+  .map {
+    padding: 1rem; }
+
+  .suites h2 {
+    font-size: 2rem; }
+
+  .suites ul {
+    font-size: 1.1rem; }
+
+  .receptionIntro2 h2 {
+    font-size: 2rem; }
+
+  .receptionIntro2 p {
+    font-size: 1.3rem; }
+
+  .receptionLayout h2, .receptionFood h2 {
+    font-size: 1.8rem; } }
+@media only screen and (min-width: 60em) {
+  nav {
+    font-size: 1.2rem; }
+
+  main {
+    width: 82%; }
+
+  .homeArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+  .homeService {
+    display: inline-flex;
+    margin: 0 auto; }
+
+  .weddingImg {
+    margin: 0 3rem 0 auto;
+    padding: 1rem; }
+
+  .title {
+    font-size: 3.8rem; }
+
+  p {
+    font-size: 1.2rem;
+    margin: 0 auto 0 3rem;
+    padding: 1rem; }
+
+  .templeJson {
+    flex-direction: row; }
+
+  .templeJson img {
+    width: 95%; }
+
+  .templeJson h3 {
+    font-size: 2rem; }
+
+  .weatherStats {
+    flex-direction: row; }
+
+  .resH2 {
+    font-size: 1.8rem; }
+
+  .thanks h2 {
+    font-size: 3rem; }
+
+  .services {
+    flex-direction: row; }
+
+  .reception {
+    display: flex;
+    flex-direction: row; }
+
+  .missionary {
+    display: flex;
+    flex-direction: row-reverse; }
+
+  .standard, .superior, .deluxe {
+    flex-direction: row; }
+
+  .standard img, .superior img, .deluxe img {
+    margin: 1rem; }
+
+  .suites h2 {
+    font-size: 2.1rem; }
+
+  .suites ul {
+    font-size: 1.2rem; }
+
+  .receptionLayout {
+    display: flex;
+    flex-direction: row; }
+
+  .receptionIntro2 h2 {
+    font-size: 2.3rem; }
+
+  .receptionLayout h2, .receptionFood h2 {
+    font-size: 2rem; } }
+
+/*# sourceMappingURL=styles.css.map */

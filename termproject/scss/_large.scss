@@ -1,0 +1,109 @@
+//CSS for the Navigation
+nav {
+    font-size: 1.2rem;
+}
+
+//CSS for the main
+main {
+    width: 82%;
+}
+
+.homeArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeService {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.weddingImg {
+    margin: 0 3rem 0 auto;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 3.8rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0 auto 0 3rem; 
+    padding: 1rem;
+}
+
+//CSS for the Temples Page
+.templeJson {
+    flex-direction: row;
+}
+
+.templeJson img {
+    width: 95%;
+}
+
+.templeJson h3 {
+    font-size: 2rem;
+}
+
+//CSS for the Temple Page
+.weatherStats {
+    flex-direction: row;
+}
+
+//CSS for the Reservation Page
+.resH2 {
+    font-size: 1.8rem;
+}
+
+//CSS for the Thanks Page
+.thanks h2 {
+    font-size: 3rem;
+}
+
+//CSS for the service Page
+.services {
+    flex-direction: row;
+}
+
+.reception {
+    display: flex;
+    flex-direction: row;
+}
+
+.missionary {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+//CSS for the Missionary Page
+.standard, .superior, .deluxe {
+    flex-direction: row;
+}
+
+.standard img, .superior img, .deluxe img {
+    margin: 1rem;
+}
+
+.suites h2 {
+    font-size: 2.1rem;
+}
+
+.suites ul {
+   font-size: 1.2rem;
+}
+
+//CSS for the Reception page
+.receptionLayout {
+    display: flex;
+    flex-direction: row;
+}
+
+.receptionIntro2 h2 {
+    font-size: 2.3rem;
+}
+
+.receptionLayout h2, .receptionFood h2 {
+    font-size: 2rem;
+} 

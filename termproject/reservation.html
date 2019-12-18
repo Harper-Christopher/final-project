@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Temple Inn & Suites">
+    <meta name="author" content="Christopher Harper">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>The Temple Inn & Suites</title>
+    <link href="https://fonts.googleapis.com/css?family=Gabriela|Open+Sans:400,600|Oswald:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    
+    <header class="head">
+        <img class="logo" src="images/logo.jpg" alt="The Temple Inn & Suites Logo">
+        <div class="companyName">
+            <h1>The Temple Inn & Suites</h1>
+            <h2 class="moto">There is always room at the Inn.</h2>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temple.html">Temple</a></li>
+            <li><a href="reservation.html" class="active">Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <img srcset="images/hotelroom-414w.jpg 414w, images/hotelroom-768w.jpg 768w, images/hotelroom.jpg 1150w" sizes="(max-width: 414px) 414px, (max-width: 768px) 768px, 1150px" src="images/hotelroom.jpg" alt="Hotel Room">
+    <h2 class="title">Reservations</h2>
+
+    <main>
+        <form method="get" action="thanks.html">
+
+        <div class="flexForm">
+            <div class="forms">
+                <h2 class="contactInfo">Reservation Information</h2>
+            <label for="location">
+            <h2 class="resH2">Location: </h2>
+            <select name="location">
+                <option value>Select Location</option>
+                <option value="southJordan">South Jordan</option>
+                <option value="bountiful">Bountiful</option>
+                <option value="slc">Salt Lake City</option>
+                <option value="haie">Haie</option>    
+            </select>
+            </label>
+
+            <label for="date">
+            <h2 class="resH2">Reservation Date: </h2>
+            <input class="textbox" type="date" name="date">
+            </label>
+
+            <label for="rooms">
+            <h2 class="resH2">Number of Rooms: </h2>
+            <select name="numberRoom">
+                <option value>Number of Rooms</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="fivePlus">5+</option>
+            </select>
+            </label>
+
+            <label for="type">
+            <h2 class="resH2">Room Type: </h2>
+            <select name="roomType">
+                <option value>Room Type</option>
+                <option value="standard">Standard Room</option>
+                <option value="superior">Superior Room</option>
+                <option value="deluxe">Deluxe Room</option>
+            </select>
+            </label>
+            </div>
+
+            <div class="forms">
+                    <h2 class="contactInfo">Contact Information</h2>
+            <label for="name">
+            <h2 class="resH2">Full Name: *</h2>
+            <input class="textbox" type="text" name="name" required pattern="[A-Za-z ]{5,}">
+            </label>
+
+            <label for="email">
+            <h2 class="resH2">Email: </h2>
+            <input class="textbox" type="email" name="email" placeholder="someone@gmail.com">
+            </label>
+
+            <label for="phone">
+            <h2 class="resH2">Phone: *</h2>
+            <input class="textbox" type="tel" name="phone" required>
+            </label>
+
+            <label for="state">
+            <h2 class="resH2">State: *</h2>
+            <input class="textbox" type="text" name="state" required>
+            </label>
+
+            <label for="comments">
+            <h2 class="resH2">Special Accommodations / Comments</h2> 
+            <textarea cols="50" rows="7" name="comments"></textarea>   
+            </label>
+
+            <label for="button">
+            <input class="button1" type="submit" value="Reserve Room">
+            </label>
+
+        </div>
+        
+        </form> 
+    </main>
+
+    <footer>
+        <div>
+        <h2>The Temple Inn & Suites</h2>
+        <h4>4800 Montgomery Ln #300 <br> Bethesda, MD 20814</h4>
+        <h4>&copy; <span id="currentYear"></span> | Christopher Harper</h4>
+        </div> 
+        <div>
+            <a href="https://www.facebook.com/"> <img class="icon" src="images/facebookIcon.png" alt="Facebook Icon"></a>
+            <a href="https://twitter.com/"><img class="icon" src="images/twitterIcon.png" alt="Twitter Icon"></a>
+            <a href="https://www.linkedin.com/"><img class="icon" src="images/linkedinIcon.png" alt="Linkedin Icon"></a>
+        </div>
+    </footer>
+    <script src="js/copyright.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

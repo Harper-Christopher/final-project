@@ -1,0 +1,108 @@
+{
+    "temples" : [
+    {
+      "name": "Oquirrh Mountain Utah Temple",
+      "photo": "oquirrhmountain.jpg",
+      "address": "11022 S 4000 W",
+      "state" : "South Jordan, UT 84009-5797",
+      "phone": "(1)801-878-3800",
+      "email": "Not Available",
+      "sessions" : "Every hour on the hour starting at 7:00AM - 8:00PM, walk-ins only.",
+      "ordinance" : "7:00AM - 8:30PM, Tuesday - Saturday",
+      "history" : [
+        "Announced 1 October 2005",
+        "Groundbreaking 16 December 2006",
+        "Dedicated 21 August 2009"
+      ],
+      "services" : [
+        "No clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "closures" : [
+        "Tuesday, 24 December 2019",
+        "Wednesday, 25 December 2019",
+        "Tuesday, 31 December 2019"
+      ]
+    },
+    {
+        "name": "Bountiful Utah Temple",
+        "photo": "bountiful.jpg",
+        "address": "640 S Bountiful Blvd",
+        "state" : "Bountiful, UT 84010-1394",
+        "phone": "(1)801-801-296-2100",
+        "email": "Not Available",
+        "sessions" : "Every hour on the hour starting at 7:00AM - 8:00PM, walk-ins only.",
+        "ordinance" : "7:00AM - 8:30PM, Tuesday - Saturday",
+        "history" : [
+          "Announced 2 February 1990",
+          "Groundbreaking 2 May 1992",
+          "Dedicated 8 January 1995"
+        ],
+        "services" : [
+          "Clothing rental available",
+          "Cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+        ],
+        "closures" : [
+          "Tuesday, 24 December 2019",
+          "Wednesday, 25 December 2019",
+          "Tuesday, 31 December 2019"
+        ]
+    },
+    {
+        "name": "Salt Lake City Utah Temple",
+        "photo": "saltlake.jpg",
+        "address": "50 W North Temple St",
+        "state" : "Salt Lake City, UT 84150-9709",
+        "phone": "(1)801-240-2640",
+        "email": "Not Available",
+        "sessions" : "Every hour on the hour starting at 7:00AM - 8:00PM, walk-ins only.",
+        "ordinance" : "7:00AM - 8:30PM, Tuesday - Saturday",
+        "history" : [
+          "Announced 28 July 1847",
+          "Groundbreaking 14 February 1853",
+          "Dedicated 6 April 1893"
+        ],
+        "services" : [
+          "Clothing rental available",
+          "Cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+        ],
+        "closures" : [
+          "Tuesday, 24 December 2019",
+          "Wednesday, 25 December 2019",
+          "Tuesday, 31 December 2019"
+        ]
+    },
+    {
+        "name": "Laie Hawaii Temple",
+        "photo": "laie.jpg",
+        "address": "55-600 Naniloa Loop",
+        "state" : "Laie, HI 96762-2202",
+        "phone": "(1)808-293-2427",
+        "email": "Not Available",
+        "sessions" : "Every hour on the hour starting at 7:00AM - 8:00PM, walk-ins only.",
+        "ordinance" : "7:00AM - 8:30PM, Tuesday - Saturday",
+        "history" : [
+          "Announced 3 October 1915",
+          "Groundbreaking 8 February 1916",
+          "Dedicated 27 November 1919"
+        ],
+        "services" : [
+          "Clothing rental Available",
+          "Cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+        ],
+        "closures" : [
+          "Tuesday, 24 December 2019",
+          "Wednesday, 25 December 2019",
+          "Friday, 27 December 2019 (Limited Hours)"
+        ]
+    }
+   ]
+  }

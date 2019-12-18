@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Temple Inn & Suites">
+    <meta name="author" content="Christopher Harper">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>The Temple Inn & Suites</title>
+    <link href="https://fonts.googleapis.com/css?family=Gabriela|Open+Sans:400,600|Oswald:400,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="head">
+        <img class="logo" src="images/logo.jpg" alt="The Temple Inn & Suites Logo">
+        <div class="companyName">
+            <h1>The Temple Inn & Suites</h1>
+            <h2 class="moto">There is always room at the Inn.</h2>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="temple.html">Temple</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="missionary.html" class="active">Full-Time Temple Missionary</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <img class="homeImg" srcset="images/missionary-414w.jpg 414w, images/missionary-768w.jpg 768w, images/missionary.jpg 1150w" sizes="(max-width: 414px) 414px, (max-width: 768px) 768px, 1150px" src="images/missionary.jpg" alt="Hotel Room">
+    <h2 class="title">Full-Time Missionaries</h2>
+    <main>
+
+        <div class="rooms">
+            <div class="standard">
+                <img src="images/placeholder.png" data-src="images/standardroom.jpg" alt="Standard Room">
+                <span class="suites">
+                    <h2>Our standard suites offer:</h2>
+                <ul>
+                    <li>1 double bed</li>
+                    <li>Air-conditioned</li>
+                    <li>Non-smoking</li>
+                    <li>Walk-in closet</li>
+                    <li>Alarm clock</li>
+                    <li>Safe, in room</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="superior">
+                <img src="images/placeholder.png" data-src="images/superiorroom.jpg" alt="Superior Room">
+                <span class="suites">
+                    <h2>Our superior suites offer:</h2>
+                <ul>
+                    <li>1 queen size bed</li>
+                    <li>Air-conditioned</li>
+                    <li>Non-smoking</li>
+                    <li>Walk-in closet</li>
+                    <li>Alarm clock</li>
+                    <li>Safe, in room</li>
+                    <li>Sofa</li>
+                    <li>Iron and ironing board</li>
+                    <li>Mini-refrigerator</li>
+                    <li>High speed internet, for a fee</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="deluxe">
+                <img src="images/placeholder.png" data-src="images/deluxeroom.jpg" alt="Deluxe Room">
+                <span class="suites">
+                    <h2>Our deluxe suites offer:</h2>
+                <ul>
+                    <li>1 California king size bed</li>
+                    <li>Air-conditioned</li>
+                    <li>Non-smoking</li>
+                    <li>Walk-in closet</li>
+                    <li>Alarm clock</li>
+                    <li>Safe, in room</li>
+                    <li>Sofa</li>
+                    <li>Iron and ironing board</li>
+                    <li>Mini-refrigerator</li>
+                    <li>Microwave</li>
+                    <li>Free high speed internet</li>
+                    <li>2 cable TV's</li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+
+        <form method="get" action="thanks2.html">
+        <div class="flexForm">
+        <div class="forms">
+            <img src="images/contact.jpg" alt="Contact Image">
+            <h2 class="contactInfo">Contact Us</h2>
+            <label for="name">
+                <h2 class="resH2">Full Name: *</h2>
+                <input class="textbox" type="text" name="name" required pattern="[A-Za-z ]{5,}" placeholder="Your Full Name">
+            </label>
+
+            <label for="email">
+                <h2 class="resH2">Email: *</h2>
+                <input class="textbox" type="email" name="email" required placeholder="someone@gmail.com">
+            </label>
+
+            <label for="phone">
+                <h2 class="resH2">Phone: </h2>
+                <input class="textbox" type="tel" name="phone" placeholder="Your Phone Number (optional) ">
+            </label>
+
+            <label for="comments">
+                <h2 class="resH2">Comments</h2>
+                <textarea cols="50" rows="7" name="comments" placeholder="Type your message here..."></textarea>
+            </label>
+
+            <label for="button">
+                <input class="button1" type="submit" value="Send Message">
+            </label>
+
+        </div>
+</div>
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <h2>The Temple Inn & Suites</h2>
+            <h4>4800 Montgomery Ln #300 <br> Bethesda, MD 20814</h4>
+            <h4>&copy; <span id="currentYear"></span> | Christopher Harper</h4>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/"> <img class="icon" src="images/facebookIcon.png"
+                    alt="Facebook Icon"></a>
+            <a href="https://twitter.com/"><img class="icon" src="images/twitterIcon.png" alt="Twitter Icon"></a>
+            <a href="https://www.linkedin.com/"><img class="icon" src="images/linkedinIcon.png" alt="Linkedin Icon"></a>
+        </div>
+    </footer>
+
+    <script src="js/copyright.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/lazyload.js"></script>
+
+</body>
+
+</html>

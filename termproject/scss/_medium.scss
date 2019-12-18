@@ -1,0 +1,99 @@
+//CSS for the header
+.head {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin: 0 auto 0 0;
+    padding: .5rem 2rem ;
+}
+
+.companyName {
+    margin: 0 0 0 auto;
+    padding: .5rem 2rem;
+}
+
+//CSS for the Navigation
+nav {
+    font-size: 1.1rem;
+}
+
+//CSS for the Main
+.templeImg {
+    border-radius: 2rem;
+    max-width: 75%;
+    margin: auto 1rem;
+}
+.homeArticle {
+    text-align: center;
+}
+
+.weddingImg {
+    max-width: 414px;;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+//CSS for the Temples Page
+.templeJson img {
+    box-shadow: 2px 2px 5px black;
+    border-radius: .5rem;
+}
+
+.templeJson h3 {
+    font-size: 1.7rem;
+}
+
+.templeJson h2 {
+    font-size: 2rem;
+}
+
+//CSS for the Reservation Page
+.contactInfo {
+    font-size: 2.7rem;
+}
+
+.resH2 {
+    font-size: 1.6rem;
+}
+
+//CSS for the Thanks Page
+.thanks h2 {
+    font-size: 2.5rem;
+}
+
+//CSS for the Contact Page 
+.map {
+    padding: 1rem;
+}
+
+//CSS for the Missionary Page
+.suites h2 {
+    font-size: 2rem;
+}
+
+.suites ul {
+   font-size: 1.1rem;
+}
+
+//CSS for the Reception Page
+.receptionIntro2 h2 {
+    font-size: 2rem;
+}
+
+.receptionIntro2 p {
+    font-size: 1.3rem;
+}
+
+.receptionLayout h2, .receptionFood h2 {
+    font-size: 1.8rem;
+} 
