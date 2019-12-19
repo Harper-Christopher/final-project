@@ -8,7 +8,8 @@
     <meta name="author" content="Christopher Harper">
     <link rel="shortcut icon" href="favicon.ico">
     <title>The Temple Inn & Suites</title>
-    <link href="https://fonts.googleapis.com/css?family=Gabriela|Open+Sans:400,600|Oswald:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -41,76 +42,70 @@
         <div class="flexForm">
             <div class="forms">
                 <h2 class="contactInfo">Reservation Information</h2>
-            <label for="location">
-            <h2 class="resH2">Location: </h2>
-            <select name="location">
+            
+                <label for="location" class="resH2">Location: </label><br>
+            <select name="location" id="location">
                 <option value>Select Location</option>
                 <option value="southJordan">South Jordan</option>
                 <option value="bountiful">Bountiful</option>
                 <option value="slc">Salt Lake City</option>
                 <option value="haie">Haie</option>    
-            </select>
-            </label>
+            </select><br>
+            
 
-            <label for="date">
-            <h2 class="resH2">Reservation Date: </h2>
-            <input class="textbox" type="date" name="date">
-            </label>
+            <label for="date" class="resH2">Reservation Date: </label><br>
+            <input class="textbox" type="date" id="date" name="date"><br>
+            
 
-            <label for="rooms">
-            <h2 class="resH2">Number of Rooms: </h2>
-            <select name="numberRoom">
+            <label for="rooms" class="resH2">Number of Rooms: </label><br>
+            <select name="numberRoom" id="rooms">
                 <option value>Number of Rooms</option>
                 <option value="one">1</option>
                 <option value="two">2</option>
                 <option value="three">3</option>
                 <option value="four">4</option>
                 <option value="fivePlus">5+</option>
-            </select>
-            </label>
+            </select><br>
+            
 
-            <label for="type">
-            <h2 class="resH2">Room Type: </h2>
-            <select name="roomType">
+            <label for="type" class="resH2">Room Type: </label><br>
+            <select name="roomType" id="type">
                 <option value>Room Type</option>
                 <option value="standard">Standard Room</option>
                 <option value="superior">Superior Room</option>
                 <option value="deluxe">Deluxe Room</option>
             </select>
-            </label>
+            
             </div>
 
             <div class="forms">
                     <h2 class="contactInfo">Contact Information</h2>
-            <label for="name">
-            <h2 class="resH2">Full Name: *</h2>
-            <input class="textbox" type="text" name="name" required pattern="[A-Za-z ]{5,}">
-            </label>
+            
+            <label for="name" class="resH2">Full Name: *</label><br>
+            <input class="textbox" type="text" id="name" name="name" required pattern="[A-Za-z ]{5,}"><br>
+            
 
-            <label for="email">
-            <h2 class="resH2">Email: </h2>
-            <input class="textbox" type="email" name="email" placeholder="someone@gmail.com">
-            </label>
+            <label for="email" class="resH2">Email: </label><br>
+            <input class="textbox" type="email" id="email" name="email" placeholder="someone@gmail.com"><br>
+            
 
-            <label for="phone">
-            <h2 class="resH2">Phone: *</h2>
-            <input class="textbox" type="tel" name="phone" required>
-            </label>
+            <label for="phone" class="resH2">Phone: *</label><br>
+            <input class="textbox" type="tel" id="phone" name="phone" required><br>
+            
 
-            <label for="state">
-            <h2 class="resH2">State: *</h2>
-            <input class="textbox" type="text" name="state" required>
-            </label>
+            <label for="state" class="resH2">State: *</label><br>
+            <input class="textbox" type="text" id="state" name="state" required><br>
+        
 
-            <label for="comments">
-            <h2 class="resH2">Special Accommodations / Comments</h2> 
-            <textarea cols="50" rows="7" name="comments"></textarea>   
-            </label>
+            <label for="comments" class="resH2">Special Accommodations / Comments</label><br>
+            <textarea cols="50" rows="7" id="comments" name="comments"></textarea>   
+            
 
             <label for="button">
-            <input class="button1" type="submit" value="Reserve Room">
+            <input class="button1" type="submit" id="button" value="Reserve Room">
             </label>
 
+        </div>
         </div>
         
         </form> 

@@ -8,15 +8,15 @@
     <link rel="shortcut icon" href="favicon.ico">
     <meta name="author" content="Christopher Harper">
     <title>The Temple Inn & Suites</title>
-    <link href="https://fonts.googleapis.com/css?family=Gabriela|Open+Sans:400,600|Oswald:400,600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
     <header class="head">
-        <img class="logo" src="images/logo-414w.png" alt="The Temple Inn & Suites Logo">
+        <img class="logo" src="images/logo.jpg" alt="The Temple Inn & Suites Logo">
         <div class="companyName">
             <h1>The Temple Inn & Suites</h1>
             <h2 class="moto">There is always room at the Inn.</h2>
@@ -41,13 +41,13 @@
     <main>
         <div class="contactLayout">
             <div class="mapDiv">
-                <iframe class="map"
+                <embed class="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013244!2d-77.09772048427034!3d38.98325177955751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576386260816!5m2!1sen!2sus"
-                    width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" title="googleMap"></iframe>
+                    width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" title="googleMap">
             </div>
 
             <div class="contactAddress"> 
-                <p class="contactP">The Temple Inn & Suites Headquarter Address: <a class="mapLink" href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b3b5b43:0x9c8eb1c5547b83eb!8m2!3d38.9832518!4d-77.0955318">4800 Montgomery Ln #300, Bethesda, MD 20814</p></a>
+                <p class="contactP">The Temple Inn & Suites Headquarter Address: <a class="mapLink" href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b3b5b43:0x9c8eb1c5547b83eb!8m2!3d38.9832518!4d-77.0955318">4800 Montgomery Ln #300, Bethesda, MD 20814</a></p>
             </div>
 
             <form method="get" action="thanks2.html">
@@ -55,30 +55,31 @@
                 <div class="forms">
                     <img src="images/contact.jpg" alt="Contact Image">
                     <h2 class="contactInfo">Contact Us</h2>
-                    <label for="name">
-                        <h2 class="resH2">Full Name: *</h2>
-                        <input class="textbox" type="text" name="name" required pattern="[A-Za-z ]{5,}"
+
+                    <div>
+                    <label for="name" class="resH2">Full Name: *</label><br>
+                        <input class="textbox" type="text" id="name" required pattern="[A-Za-z ]{5,}"
                             placeholder="Your Full Name">
-                    </label>
+                    </div>
 
-                    <label for="email">
-                        <h2 class="resH2">Email: *</h2>
-                        <input class="textbox" type="email" name="email" required placeholder="someone@gmail.com">
-                    </label>
+                    <div>
+                    <label for="email" class="resH2">Email: * </label><br>
+                        <input class="textbox" type="email" id="email" required placeholder="someone@gmail.com">
+                    </div>
 
-                    <label for="phone">
-                        <h2 class="resH2">Phone: </h2>
-                        <input class="textbox" type="tel" name="phone"
+                    <div>
+                    <label for="phone" class="resH2">Phone: </label><br>
+                        <input class="textbox" type="tel" id="phone"
                             placeholder="Your Phone Number (optional) ">
-                    </label>
+                    </div>
 
-                    <label for="comments">
-                        <h2 class="resH2">Comments</h2>
-                        <textarea cols="50" rows="7" name="comments" placeholder="Type your message here..."></textarea>
-                    </label>
+                    <div>
+                    <label for="comments" class="resH2">Comments</label><br>
+                        <textarea cols="50" rows="7" id="comments" placeholder="Type your message here..."></textarea>
+                    </div>
 
                     <label for="button">
-                        <input class="button1" type="submit" value="Send Message">
+                        <input class="button1" type="submit" id="button" value="Send Message">
                     </label>
 
                 </div>

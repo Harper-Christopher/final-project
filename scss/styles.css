@@ -617,10 +617,6 @@ div .stats {
   margin: .3rem;
   text-align: center; }
 
-.forms h2 {
-  color: #c0fdfb;
-  margin: 0; }
-
 .forms input, .forms select, .forms textarea {
   border-radius: 1rem;
   padding: .5rem;
